@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 ARG VERSION=4.4.0
 RUN apt-get update && \
     apt-get install git -y
